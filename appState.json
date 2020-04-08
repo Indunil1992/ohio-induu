@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "daa5e80c-5e36-48ec-967b-e3779f747b87": {
+        "id": "daa5e80c-5e36-48ec-967b-e3779f747b87",
+        "parent": null,
+        "name": "ohio-induu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ohio-induu.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 52
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ohioInduu"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2Londonteststgingindany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "daa5e80c-5e36-48ec-967b-e3779f747b87"
+    ],
+    "currentFileId": "daa5e80c-5e36-48ec-967b-e3779f747b87",
+    "resources": {
+      "apigusEast2Londonteststgingindany": {
+        "name": "apigusEast2Londonteststgingindany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 0,
+          "apiName": "London",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test/stging/ind",
+          "resourcePath": "/test/stging/ind",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qa",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ohio-induu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586350157769
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ohio-induu",
+      "url": "https://github.com/Indunil1992/ohio-induu"
+    }
+  }
+}
